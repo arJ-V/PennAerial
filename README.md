@@ -28,7 +28,7 @@ Each function is documented to explain the key operations and logic. Comments hi
 
 ---
 
-## Static Image Results
+## Static Image Results (located in main.py)
 
 <img width="946" alt="Screenshot 2024-09-18 at 8 01 08 PM" src="https://github.com/user-attachments/assets/25f1cb24-8555-41a0-b20e-71be0798eb9d">
 
@@ -47,7 +47,7 @@ Each function is documented to explain the key operations and logic. Comments hi
 
 ---
 
-## Video Results
+## Video Results (located in video.py)
 
 https://github.com/user-attachments/assets/ac140870-3ca1-4c4e-b057-dce79d481d21
 
@@ -65,7 +65,7 @@ https://github.com/user-attachments/assets/ac140870-3ca1-4c4e-b057-dce79d481d21
 
 ---
 
-## Background Agnostic Results
+## Background Agnostic Results (located in difficultvideo.py)
 
 https://github.com/user-attachments/assets/9b70ddb9-ef42-46b8-92d1-60cb0cdec3fc
 
@@ -104,19 +104,19 @@ pip install opencv-python opencv-python-headless
 
 ### Running the Static Image Detection
 ```bash
-python detect_shapes.py
+python main.py
 ```
 This will run the shape detection algorithm on the provided static image file.
 
 ### Running the Video Detection
 ```bash
-python detect_shapes_in_video.py
+python video.py
 ```
 This will process each frame of the video and will display the output video with detected shapes.
 
 ### Running the Background Agnostic Detection
 ```bash
-python detect_shapes_in_video_agnostic.py
+python difficultvideo.py
 ```
 This version is designed for more complex backgrounds and will display the output video with the detected shapes.
 
