@@ -112,13 +112,13 @@ This will run the shape detection algorithm on the provided static image file.
 ```bash
 python detect_shapes_in_video.py
 ```
-This will process each frame of the video and save the output with detected shapes.
+This will process each frame of the video and will display the output video with detected shapes.
 
 ### Running the Background Agnostic Detection
 ```bash
 python detect_shapes_in_video_agnostic.py
 ```
-This version is designed for more complex backgrounds and will save the output video with the detected shapes.
+This version is designed for more complex backgrounds and will display the output video with the detected shapes.
 
 ---
 
