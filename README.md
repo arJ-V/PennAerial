@@ -93,9 +93,8 @@ To get started, clone this repository using the following command:
 
 ```bash
 Copy code
-git clone https://github.com/your-username/shape-detection-algorithm.git
-cd shape-detection-algorithm
-After cloning, you can run the provided scripts for image and video shape detection as explained in the previous section.
+git clone https://github.com/arJ-V/PennAerial.git
+cd PennAerial
 ```
 
 Install OpenCV using:
